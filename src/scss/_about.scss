@@ -1,0 +1,56 @@
+.about {
+  color: $white;
+  background-color: $primary;
+  padding: 6rem 10rem;
+
+  .section-one {
+    display: flex;
+
+    .aside {
+      color: $dark;
+      font-size: 6rem;
+      writing-mode: vertical-lr;
+      font-weight: bolder;
+      text-orientation: mixed;
+      opacity: 0.4;
+      // background-color: red;
+    }
+
+    .quote {
+      padding-left: 10rem;
+      // background-color: red;
+
+      &--text {
+        font-size: 26px;
+        font-family: "Palatino", sans-serif;
+        width: 80%;
+        line-height: 39px;
+      }
+
+      &--author {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+        margin: 20px 0 30px;
+      }
+    }
+  }
+
+  .global-team {
+    padding-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    // background-color: red;
+
+    &--header {
+      width: 55%;
+    }
+
+    &--card-collection {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      //   background-color: red;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.scroll {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  //   background-color: #fff;
+
+  &--text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-bottom: 10px;
+    color: $primary;
+    // opacity: 0;
+  }
+
+  &--circle {
+    width: 30px;
+    height: 30px;
+    border: 1px solid $primary;
+    border-radius: 50%;
+    // opacity: 0;
+  }
+
+  &--line {
+    width: 60px;
+    height: 1px;
+    background-color: $primary;
+    transform: rotate(90deg);
+    margin-top: 15px;
+    // opacity: 0;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../variables";
+
+.nav {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  // margin-bottom: -5px;
+  // background-color: yellow;
+
+  .item-list {
+    display: inline;
+    font-size: 1rem;
+    &--button {
+      background-color: $primary;
+      color: $white;
+      padding: 10px 20px;
+    }
+  }
+}

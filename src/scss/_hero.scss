@@ -1,0 +1,37 @@
+.hero {
+  // height: 80vh;
+  padding: 12rem 100px 5rem 100px;
+  display: flex;
+  flex-direction: column;
+  float: none;
+  // background-color: orange;
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: red;
+
+    &--text {
+      font-size: 4rem;
+      text-transform: uppercase;
+      width: 70%;
+      line-height: 1.2;
+      font-weight: bolder;
+      color: $dark;
+      text-align: center;
+      margin-bottom: 1rem;
+      // opacity: 0;
+      // margin-top: 5rem;
+      // background-color: yellow;
+
+      &__small {
+        font-size: 1.4rem;
+        width: 50%;
+        text-align: center;
+        // opacity: 0;
+        // background-color: forestgreen;
+      }
+    }
+  }
+}

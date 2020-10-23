@@ -1,0 +1,8 @@
+@import "./logo", "./nav";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  // background-color: red;
+}
